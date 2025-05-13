@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyT Top-Up Store</title>
+    <link rel="stylesheet" href="my project.css">
+    <style>
+ /* General Styles */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #ca1414;
+      }
+
+      header {
+        background: linear-gradient(135deg, #6a1b9a, #2a2a8f);
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      header p {
+        margin: 5px 0 0;
+        font-size: 1.2rem;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .products {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .product-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .product-card:hover {
+        transform: translateY(-10px);
+      }
+
+      .product-card img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+      }
+
+      .product-card h3 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+
+      .product-card p {
+        font-size: 1rem;
+        color: #666;
+      }
+
+      .product-card button {
+        background: #00e5ff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .product-card button:hover {
+        background: #00b8d4;
+      }
+
+      footer {
+        background: #2a2a8f;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+
+      footer a {
+        color: #00e5ff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 2rem;
+        }
+
+        .product-card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>MyT Top-Up Store</h1>
+      <p>Recharge Your World, Anytime, Anywhere!</p>
+    </header>
+
+    <main>
+      <div class="products">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="placeholder.png" alt="Mobile Recharge" />
+          <h3>Mobile Recharge</h3>
+          <p>Instant mobile top-up for all networks.</p>
+          <button>Buy now</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="placeholder.png" alt="Mobile Recharge" />
+          <h3>Gift Cards</h3>
+          <p>Redeemable at your favorite stores.</p>
+          <button>Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="placeholder.png" alt="Mobile Recharge" />
+          <h3>Data Packs</h3>
+          <p>High-speed internet for your devices.</p>
+          <button>Buy Now</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img
+            src="https://via.placeholder.com/100"
+            alt="Streaming Subscriptions"
+          />
+          <h3>Streaming Subscriptions</h3>
+          <p>Top-up for Netflix, Spotify, and more.</p>
+          <button>Buy Now &COPY;</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Contact us:
+        <a href="mailto:support@mytstore.com">support@mytstore.com</a>
+      </p>
+      <p>&copy; 2025 MyT Top-Up Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
